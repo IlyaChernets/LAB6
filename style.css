@@ -1,3 +1,9 @@
+.page{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+        Helevtica, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
 .nav_container {
     display: flex;
     justify-content: right;
@@ -20,6 +26,7 @@
     padding: 10px;
     text-decoration: none;
     font-size: 20px;
+    color: #000000;
 }
 .nav_container a.button{
     display: inline-block;
@@ -64,13 +71,13 @@
     border-radius: 15px;
 }
 .header>div>img{
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     border-radius: 15px;
-    padding-top: 70px;
+    margin-top: 70px;
 }
 .Felecia{
-    font-size: 25px;
+    font-size: 27px;
 }
 .header span.button{
     display: inline-block;
@@ -89,3 +96,29 @@
     list-style: none;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+
+.card{
+    border: solid;
+    border-color: rgb(247, 245, 245);
+    border-radius: 10px;
+    margin: 15px;
+    width: 425px;
+    height: 160px;
+    text-align: center;
+    font-size: 13.5px;
+    
+}
+
+.card img{
+    width: 60px;
+    margin-top: 10px;
+}
+
+.text-page>p{
+    color: #414141;
+}
